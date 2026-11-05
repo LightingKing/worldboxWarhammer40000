@@ -11,6 +11,7 @@ kingdoms, build cities, grow, and go to war on their own. Spawn them from the
 src/FortyKBox/        the mod (net48): civ registration, power tab, locales
   GameResources/      generated sprites and icons (do not edit by hand)
 art/sprites/*.json    unit sprite sources, one per civ; spec in art/SPRITE_SPEC.md
+art/buildings/*.json  building sprite sources, one per civ; spec in art/BUILDING_SPEC.md
 art/preview/          rendered previews of the sprites
 godot/                build-time sprite pipeline (Godot 4.7, headless)
 tools/                deploy, balance runs, window capture/click helpers, sprite extraction
@@ -56,3 +57,11 @@ loads mods after the game's own setup passes, `CivRegistrar` repeats those
 steps by hand: nomad and civ kingdom assets plus their wild kingdom objects,
 the species' own texture sub-asset and shadow, and a re-link of the actor
 library. Bodies use one `main` sheet per civ with the head drawn in.
+
+Each civ also gets its own architecture (`ArchitectureRegistrar`): the
+template's architecture and its 19 styled buildings are cloned under the civ
+id with the upgrade chains relinked. Buildings with art under
+`GameResources/buildings/civ_main/<civ>/` use it (13 per civ: tent, houses,
+halls, tower, barracks, temple); the rest (docks, windmills, library,
+market) keep the template's sprites until art for them exists. Only the
+finished building is drawn; ruin, construction and map icon are generated.

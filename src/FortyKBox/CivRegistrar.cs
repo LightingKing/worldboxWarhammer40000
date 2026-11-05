@@ -115,8 +115,10 @@ internal static class CivRegistrar
         asset.kingdom_id_wild = civ.NomadKingdomId;
         asset.name_taxonomic_genus = civ.Genus;
         asset.name_taxonomic_species = civ.Species;
-        if (civ.BaseCities.HasValue)
-            asset.civ_base_cities = civ.BaseCities.Value;
+        // Own architecture, cloned from the template species' one; linked to
+        // architecture_asset by the actor library re-link in RegisterAll.
+        ArchitectureRegistrar.Register(civ, asset.architecture_id, log);
+        asset.architecture_id = civ.Id;
 
         // The zombie_<id> species is generated only at game start, so a mod
         // species would turn into an asset that does not exist.

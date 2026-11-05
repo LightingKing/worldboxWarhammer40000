@@ -37,8 +37,6 @@ internal sealed class CivDefinition
     /// </summary>
     public Dictionary<string, float> GenomeMultipliers = new Dictionary<string, float>();
 
-    public int? BaseCities;
-
     public string NomadKingdomId => "nomads_" + Id;
     public string IconPath => "ui/Icons/w40k/" + Id;
     public string BodyPath => "actors/species/civs/" + Id + "/main";
