@@ -1,0 +1,16 @@
+{
+  "tab_40kbox": "40KBox",
+  "tab_40kbox_description": "Warhammer 40K civilizations",
+  "w40k_imperium": "Imperium of Man",
+  "w40k_imperium_description": "Guardsmen of the Emperor. Build cities, raise regiments and purge the xenos.",
+  "w40k_ork": "Orks",
+  "w40k_ork_description": "Green, tough and always looking for a fight. WAAAGH!",
+  "w40k_necron": "Necrons",
+  "w40k_necron_description": "Ancient metal warriors awakening from their tombs to reclaim the stars.",
+  "w40k_chaos": "Chaos",
+  "w40k_chaos_description": "Cultists sworn to the Dark Gods, eager for war and change.",
+  "nomads_w40k_imperium": "Imperial Wanderers",
+  "nomads_w40k_ork": "Ork Warbands",
+  "nomads_w40k_necron": "Awakened Necrons",
+  "nomads_w40k_chaos": "Chaos Warbands"
+}

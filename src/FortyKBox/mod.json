@@ -1,0 +1,11 @@
+{
+  "name": "40KBox",
+  "author": "40KBox contributors",
+  "GUID": "40KBox",
+  "version": "0.2.0",
+  "description": "Warhammer 40K civilizations for WorldBox: the Imperium, Orks, Necrons and Chaos found kingdoms, build cities and go to war.",
+  "iconPath": "icon.png",
+  "Dependencies": [],
+  "OptionalDependencies": [],
+  "IncompatibleWith": []
+}

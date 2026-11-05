@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>FortyKBox</RootNamespace>
+    <AssemblyName>40KBox</AssemblyName>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>11</LangVersion>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <WorldBoxInstall Condition="'$(WorldBoxInstall)' == ''">H:\SteamLibrary\steamapps\common\worldbox</WorldBoxInstall>
+    <Managed>$(WorldBoxInstall)\worldbox_Data\Managed</Managed>
+  </PropertyGroup>
+
+  <!-- Compile against the real (not publicized) game assembly, so any access
+       to a private game member has to go through explicit reflection. -->
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp" HintPath="$(Managed)\Assembly-CSharp.dll" Private="false" />
+    <Reference Include="NeoModLoader" HintPath="$(WorldBoxInstall)\worldbox_Data\StreamingAssets\mods\NeoModLoader.dll" Private="false" />
+    <Reference Include="UnityEngine" HintPath="$(Managed)\UnityEngine.dll" Private="false" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(Managed)\UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="UnityEngine.UI" HintPath="$(Managed)\UnityEngine.UI.dll" Private="false" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="mod.json;icon.png;Locales\*.json;GameResources\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

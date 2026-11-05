@@ -1,0 +1,16 @@
+{
+  "tab_40kbox": "战锤40K",
+  "tab_40kbox_description": "战锤40K文明",
+  "w40k_imperium": "人类帝国",
+  "w40k_imperium_description": "帝皇的卫兵。建城、征兵、净化异形。",
+  "w40k_ork": "兽人",
+  "w40k_ork_description": "绿皮、皮糙肉厚，永远在找架打。WAAAGH！",
+  "w40k_necron": "死灵",
+  "w40k_necron_description": "从古墓中苏醒的金属战士，要夺回群星。",
+  "w40k_chaos": "混沌",
+  "w40k_chaos_description": "效忠黑暗诸神的信徒，渴望战争与变化。",
+  "nomads_w40k_imperium": "帝国流民",
+  "nomads_w40k_ork": "兽人战帮",
+  "nomads_w40k_necron": "苏醒的死灵",
+  "nomads_w40k_chaos": "混沌战帮"
+}

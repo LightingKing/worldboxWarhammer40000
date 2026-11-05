@@ -1,0 +1,73 @@
+{
+  "Default": {
+    "PivotX": 0.5,
+    "PivotY": 0.0,
+    "PixelsPerUnit": 1
+  },
+  "Specific": [
+    {
+      "Path": "walk_0_item.png",
+      "PivotX": 0.5,
+      "PivotY": 0.175,
+      "PixelsPerUnit": 1,
+      "RectH": 3,
+      "RectW": 1,
+      "RectX": 1,
+      "RectY": 4
+    },
+    {
+      "Path": "swim_0.png",
+      "PivotX": 0.5,
+      "PivotY": 0.1,
+      "PixelsPerUnit": 1
+    },
+    {
+      "Path": "walk_1_item.png",
+      "PivotX": 0.5,
+      "PivotY": 0.175,
+      "PixelsPerUnit": 1,
+      "RectH": 3,
+      "RectW": 1,
+      "RectX": 1,
+      "RectY": 7
+    },
+    {
+      "Path": "swim_1.png",
+      "PivotX": 0.5,
+      "PivotY": 0.1,
+      "PixelsPerUnit": 1
+    },
+    {
+      "Path": "walk_2_item.png",
+      "PivotX": 0.5,
+      "PivotY": 0.175,
+      "PixelsPerUnit": 1,
+      "RectH": 3,
+      "RectW": 1,
+      "RectX": 1,
+      "RectY": 6
+    },
+    {
+      "Path": "swim_2.png",
+      "PivotX": 0.5,
+      "PivotY": 0.1,
+      "PixelsPerUnit": 1
+    },
+    {
+      "Path": "walk_3_item.png",
+      "PivotX": 0.5,
+      "PivotY": 0.175,
+      "PixelsPerUnit": 1,
+      "RectH": 3,
+      "RectW": 1,
+      "RectX": 1,
+      "RectY": 4
+    },
+    {
+      "Path": "swim_3.png",
+      "PivotX": 0.5,
+      "PivotY": 0.1,
+      "PixelsPerUnit": 1
+    }
+  ]
+}

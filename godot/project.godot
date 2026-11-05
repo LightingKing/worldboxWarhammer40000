@@ -1,0 +1,9 @@
+; Build-time tool only. WorldBox never loads this project.
+; Run: godot --headless --path godot --script res://build_sprites.gd
+
+config_version=5
+
+[application]
+
+config/name="40KBox sprite pipeline"
+config/features=PackedStringArray("4.7")

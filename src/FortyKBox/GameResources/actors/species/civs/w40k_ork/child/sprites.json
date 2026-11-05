@@ -1,0 +1,33 @@
+{
+  "Default": {
+    "PivotX": 0.5,
+    "PivotY": 0.0,
+    "PixelsPerUnit": 1
+  },
+  "Specific": [
+    {
+      "Path": "swim_0.png",
+      "PivotX": 0.5,
+      "PivotY": 0.1,
+      "PixelsPerUnit": 1
+    },
+    {
+      "Path": "swim_1.png",
+      "PivotX": 0.5,
+      "PivotY": 0.1,
+      "PixelsPerUnit": 1
+    },
+    {
+      "Path": "swim_2.png",
+      "PivotX": 0.5,
+      "PivotY": 0.1,
+      "PixelsPerUnit": 1
+    },
+    {
+      "Path": "swim_3.png",
+      "PivotX": 0.5,
+      "PivotY": 0.1,
+      "PixelsPerUnit": 1
+    }
+  ]
+}

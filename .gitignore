@@ -1,0 +1,19 @@
+**/bin/
+**/obj/
+.vs/
+godot/.godot/
+*.user
+
+# WorldBox's own code and art are not ours to publish. Regenerate locally:
+# decompile with ilspycmd, extract sprites with tools/extract_vanilla_sprites.py.
+reference/
+art/reference/
+
+# Scratch review sheets; the per-civ previews are kept.
+art/preview/_*.png
+
+# Unrelated projects that share this folder.
+ai-pose-gallery-zh/
+ai-pose-gallery-zh-src/
+comfyui-ref-lookbook/
+*.mp3
